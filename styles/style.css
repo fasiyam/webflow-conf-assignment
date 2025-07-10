@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared styles */
+
+.primary-color {
+    color: #4E47FF;
+}
+
+
+/* Navigation bar design */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 150px;
+
+    h2 {
+        font-size: 34px;
+        font-weight: 900;
+        line-height: 1.5;
+    }
+
+    a button {
+        background-color: #4E47FF;
+        color: #fff;
+        border-radius: 10px;
+        padding: 12px 36px;
+    }
+}
+
