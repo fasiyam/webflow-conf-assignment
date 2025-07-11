@@ -18,13 +18,21 @@ body {
 /* Shared styles */
 
 .btn-design {
-    background-color: #4E47FF;
+    /* background-color: #4E47FF; */
+    background: linear-gradient(to right, rgba(148, 3, 253, 1), rgba(0, 173, 254, 1));
     color: #fff;
     border-radius: 10px;
     padding: 12px 36px;
     font-weight: bold;
     border: none;
     line-height: 1.5;
+
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-design:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, rgba(255, 18, 220, 1), rgba(255, 185, 18, 1));
 }
 
 .primary-color {
